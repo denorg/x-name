@@ -1,11 +1,12 @@
-# 🏁 Deno Starter
+# 🏷️ X Name
 
-Simply recursively read a directory in Deno.
+Check if a package name is available in the https://deno.land/x third-party registry.
 
 ```ts
-import { mode } from "https://raw.githubusercontent.com/denorg/starter/master/mod.ts";
+import { checkIfNameIsAvailable } from "https://raw.githubusercontent.com/denorg/x-name/master/mod.ts";
 
-const result = mode();
+await checkIfNameIsAvailable("abc"); // false
+await checkIfNameIsAvailable("your-package-name"); // true
 ```
 
 Required permissions:
