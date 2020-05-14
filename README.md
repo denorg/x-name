@@ -10,14 +10,14 @@ const result = mode();
 
 Required permissions:
 
-1. `--allow-read`
+1. `--allow-net`
 
 ## 👩‍💻 Development
 
 Run tests:
 
 ```bash
-deno test --allow-read
+deno test --allow-net
 ```
 
 ## 📄 License
