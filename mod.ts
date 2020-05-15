@@ -11,6 +11,7 @@ export async function checkIfNameIsAvailable(name: string) {
   return !database.includes(name);
 }
 
-for (let arg of Deno.args) {
-  console.log(arg, await checkIfNameIsAvailable(arg) ? "is available" : "is taken");
+/** Check whether a package name is exists in deno.land/x */
+export async function checkIfNameExists(name: string) {
+  return !(await checkIfNameIsAvailable(name));
 }
