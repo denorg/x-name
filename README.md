@@ -11,6 +11,15 @@ await checkIfNameIsAvailable("abc"); // false
 await checkIfNameIsAvailable("your-package-name"); // true
 ```
 
+Or install using
+```bash
+deno install --allow-net -n x-name https://deno.land/x/x_name/mod.ts
+```
+And run with 
+```bash
+x-name <name of the package>
+```
+
 Required permissions:
 
 1. `--allow-net`
