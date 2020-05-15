@@ -11,16 +11,20 @@ await checkIfNameIsAvailable("abc"); // false
 await checkIfNameIsAvailable("your-package-name"); // true
 ```
 
-alternatively you can use it directly fron cli by using `deno run`:
+Alternatively, you can use it directly from the CLI by using `deno run`:
+
 ```bash
 deno run --allow-net https://deno.land/x/x_name/mod.ts <your-package-name>
 ```
 
-Or install using
+You can also install it globally using the following:
+
 ```bash
 deno install --allow-net -n x-name https://deno.land/x/x_name/mod.ts
 ```
-And run with 
+
+Then, the package is available to run:
+
 ```bash
 x-name <your-package-name>
 ```
