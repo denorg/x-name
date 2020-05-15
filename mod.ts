@@ -8,5 +8,5 @@ export async function checkIfNameIsAvailable(name: string) {
   if (!database.length) {
     database = Object.keys(await (await fetch(DATABASE_URL)).json());
   }
-  return database.includes(name);
+  return !database.includes(name);
 }
