@@ -10,3 +10,7 @@ export async function checkIfNameIsAvailable(name: string) {
   }
   return !database.includes(name);
 }
+
+for (let arg of Deno.args) {
+  console.log(arg, await checkIfNameIsAvailable(arg) ? "is available" : "is taken");
+}
