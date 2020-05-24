@@ -42,14 +42,14 @@ deno run --allow-net https://deno.land/x/x_name/cli.ts exists <your-package-name
 You can also install it globally using the following:
 
 ```bash
-deno install --allow-net -n x-name https://deno.land/x/x_name/cli.ts
+deno install --allow-net -n x_name https://deno.land/x/x_name/cli.ts
 ```
 
 Then, the package is available to run:
 
 ```bash
-x-name available <your-package-name>
-x-name exists <your-package-name>
+x_name available <your-package-name>
+x_name exists <your-package-name>
 ```
 
 ### Configuration
