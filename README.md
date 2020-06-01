@@ -2,7 +2,13 @@
 
 Check if a package name is available in the https://deno.land/x third-party Deno modules registry.
 
-[![Test CI](https://github.com/denorg/x-name/workflows/Test%20CI/badge.svg)](https://github.com/denorg/x-name/actions)
+[![Deno CI](https://github.com/denorg/x-name/workflows/Deno%20CI/badge.svg)](https://github.com/denorg/x-name/actions)
+[![GitHub](https://img.shields.io/github/license/denorg/x-name)](https://github.com/denorg/x-name/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/denorg/x-name)](https://github.com/denorg/x-name/graphs/contributors)
+[![Deno Starter](https://img.shields.io/badge/deno-starter-brightgreen)](https://denorg.github.io/starter/)
+[![Made by Denorg](https://img.shields.io/badge/made%20by-denorg-0082fb)](https://github.com/denorg)
+[![TypeScript](https://img.shields.io/badge/types-TypeScript-blue)](https://github.com/denorg/x-name)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 ## ⭐ Getting started
 
